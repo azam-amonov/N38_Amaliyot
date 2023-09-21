@@ -4,11 +4,13 @@ class Phone:
         self.model = model
         self.price = price
 
+    # Obyektni print orqali chiqarish methodga murojaat qilmasdan
     def __str__(self):
         return (f"Brand: {self.brand}\n"
                 f"Name: {self.model}\n"
                 f"Price: {self.price}$\n")
 
+    # Obyektni print-da alohida method orqali chiqarish
     def display(self):
         return (f"Brand: {self.brand}\n"
                 f"Name: {self.model}\n"
