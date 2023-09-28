@@ -34,16 +34,3 @@ def toSnakeCase(case: str):
 
 res = toSnakeCase(camelCase)
 print(res)
-#
-#
-# result = toCase(snakeCase)
-# result2 = toCase(camelCase)
-#
-# snake = toSnakeCase(camelCase)
-# camel = toCamelCase(snakeCase)
-#
-# print(snake)
-# print(camel)
-#
-# print(result)
-# print(result2)
