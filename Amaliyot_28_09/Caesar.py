@@ -10,5 +10,4 @@ def caesarHashing(text: str, key: int) -> str:
 
 print(caesarHashing("wxyz", 1))
 
-print(97 % 26)
 
